@@ -1,0 +1,21 @@
+PackageIdentifier: AnvaiLabs.AgentBrowser
+PackageVersion: 1.32.0
+InstallerLocale: en-US
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.17763.0
+Installers:
+- Architecture: x64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: agentbrowser-mcp.exe
+    PortableCommandAlias: agentbrowser-mcp
+  - RelativeFilePath: agentbrowser-cli.exe
+    PortableCommandAlias: agentbrowser-cli
+  - RelativeFilePath: agentbrowser-server.exe
+    PortableCommandAlias: agentbrowser-server
+  InstallerUrl: https://github.com/anvai-labs/agentbrowser/releases/download/v1.32.0/agentbrowser-windows-x64.zip
+  InstallerSha256: 1B73637499AFB33F7B8F11667D15E089CF10FB8D576BB4A9CE86EB632C5B9A7E
+ManifestType: installer
+ManifestVersion: 1.6.0
